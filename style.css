@@ -1,0 +1,1152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* header start */
+header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 150px;
+    height: 70px;
+    margin-left: 17%;
+}
+
+header .parent1 {
+    margin-left: 20px;
+}
+
+header .parent1 a {
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    color: black;
+}
+
+header .contact-btn {
+    margin-left: 5%;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    box-shadow: 3px 3px 30px rgba(0, 0, 255, 0.424);
+    text-decoration: none;
+    font-size: 17px;
+    background: linear-gradient(-90deg, blue, rgba(0, 162, 255, 0.644));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .contact-btn {
+    display: block;
+    position: relative;
+    transition: all .20s;
+}
+
+header .contact-btn span {
+    position: relative;
+    z-index: 2;
+}
+
+header .contact-btn:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    background: black;
+    height: 100%;
+    transition: all .20s;
+}
+
+header .contact-btn:hover {
+    color: white;
+}
+
+header .contact-btn:hover:after {
+    width: 100%;
+}
+
+/* header End */
+/* section main1 start */
+.parent2 {
+    background-color: rgba(118, 202, 205, 0.473);
+    width: 100%;
+    height: 500px;
+}
+
+.parent2 .main {
+    display: flex;
+    justify-content: center;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.parent2 .child {
+    margin-top: 3%;
+}
+
+.parent2 .child .para1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    background-color: rgba(9, 139, 175, 0.996);
+    color: white;
+    width: 540px;
+    padding: 7px;
+    text-align: center;
+}
+
+.parent2 .child h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    width: 550px;
+}
+
+.parent2 .child .para2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 550px;
+    line-height: 25px;
+}
+
+.parent2 .image3 img {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.parent2 .backgroudimage img {
+    width: 500px;
+    height: 500px;
+}
+
+
+/* section main1 End */
+/* section main2 start */
+.main1 {
+    display: flex;
+}
+
+.parent3 {
+    margin-top: -10%;
+    margin-left: 7%;
+}
+
+.parent3 .form1 {
+    width: 600px;
+    box-shadow: 3px 3px 20px gray;
+    height: 670px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.parent3 .child1 {
+    background-color: rgb(4, 4, 89);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    height: 110px;
+}
+
+.parent3 .child1 h1 {
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent3 .child1 p {
+    font-size: 18px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.parent3 .child2 {
+    width: 250px;
+    height: 500px;
+    text-align: center;
+    background-color: whitesmoke;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+    box-shadow: 5px 5px 15px grey;
+}
+
+.parent3 .child2 h4 {
+    background-color: rgb(240, 187, 87);
+    font-size: 25px;
+    padding-top: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    height: 80px;
+}
+
+.parent3 .child2 h1 {
+    background-color: rgb(83, 83, 83);
+    color: white;
+    font-size: 50px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.parent3 .child2 h1 sub {
+    font-size: 30px;
+}
+
+.parent3 .child2 p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+}
+
+.parent3 .child2 button {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 187, 87);
+    border-radius: 5px;
+    border: 1px solid rgb(240, 187, 87);
+    margin-top: 5px;
+}
+.parent3 .child2 button a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.parent3 .child3 {
+    width: 250px;
+    margin-left: 5%;
+    height: 500px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-top: 5%;
+    box-shadow: 5px 5px 15px gray;
+}
+
+.parent3 .child3 h4 {
+    background-color: rgb(81, 156, 255);
+    font-size: 25px;
+    padding-top: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    height: 80px;
+}
+
+.parent3 .child3 h1 {
+    background-color: rgb(83, 83, 83);
+    color: white;
+    font-size: 50px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.parent3 .child3 h1 sub {
+    font-size: 30px;
+}
+
+.parent3 .child3 p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+}
+
+.parent3 .child3 button {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(81, 156, 255);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(81, 156, 255);
+    margin-top: 5px;
+    cursor: pointer;
+}
+.parent3 .child3 button a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.parent4 {
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.parent4 h1 {
+    font-size: 32px;
+    font-family: monospace;
+}
+
+.parent4 h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.parent4 p {
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 10%;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+i {
+    width: 30px;
+    color: cadetblue;
+}
+
+/* section main2 End */
+/* section main3 start */
+.parent5 {
+    margin-left: 7%;
+    margin-top: 20px;
+
+}
+
+.parent5 .para3 {
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.parent5 img {
+    float: right;
+    width: 200px;
+
+}
+
+.parent5 .class {
+    margin-right: 7%;
+}
+
+.parent5 .child4 {
+    margin-top: 20px;
+    height: 200px;
+    display: flex;
+    height: 220px;
+    width: 600px;
+    padding: 10px;
+    border: 2px solid;
+
+}
+
+.parent5 .child4 p {
+    font-size: 17px;
+    height: 200px;
+    margin-left: 10px;
+    line-height: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.parent5 .child4 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.parent6 {
+    margin-left: 50%;
+    margin-top: -10%;
+}
+
+.parent6 p {
+    font-size: 20px;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.parent6 h4 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* section main3 End */
+/* section main4 start */
+
+.parent7 {
+    display: flex;
+}
+
+.parent8 {
+    margin-left: 7%;
+    margin-top: 4%;
+}
+
+.parent8 h1 {
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    width: 700px;
+}
+
+.parent8 p {
+    font-size: 17px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 640px;
+    margin-top: 20px;
+}
+
+.parent9 {
+    background-image: url(image/back.webp);
+    width: 550px;
+    cursor: pointer;
+    height: 450px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+
+.child5 {
+    display: flex;
+}
+
+.parent9 .child5 img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background: linear-gradient(-90deg, white, white);
+}
+
+.parent9 .child5 a {
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.parent9 .image4 {
+    width: 100px;
+    height: 100px;
+    margin-left: 45%;
+    margin-top: 20%;
+}
+
+.button1 {
+    height: 40px;
+    margin-top: 100px;
+    width: 550px;
+    border: 1px solid rgba(0, 0, 0, 0.777);
+    background-color: rgba(0, 0, 0, 0.777);
+}
+
+.button1 a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* section main4 End */
+/* section main5 start */
+.parent10 {
+    margin-top: 30px;
+}
+
+.parent10 h4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.parent10 .child6 {
+    margin-left: 7%;
+    margin-top: 20px;
+}
+
+.parent10 .child6 img {
+    margin-left: 2%;
+}
+
+/* section main5 End */
+/* section main6 start */
+.parent11 {
+    margin-top: 5%;
+    background-color: rgb(4, 83, 86);
+    height: 550px;
+}
+
+.parent11 .child7 {
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.parent11 h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-top: 3%;
+}
+
+.parent11 .child7 img {
+    width: 180px;
+    margin-left: 3%;
+    background-color: aqua;
+    padding: 30px;
+    height: 220px;
+}
+
+.parent11 .child7 button {
+    height: 55px;
+    width: 250px;
+    margin-top: 5%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(-45deg, black, aqua);
+    border-radius: 5px;
+    border: 5px solid white;
+
+}
+
+.parent11 .child7 button a {
+    text-decoration: none;
+    color: black;
+}
+
+/* section main6 End */
+/* section main7 start */
+.parent12 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.parent12 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    line-height: 45px;
+    font-size: 35px;
+}
+
+.parent12 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* section main7 End */
+/* section main8 start */
+.parent13 {
+    margin-top: 30px;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.parent13 .child8 {
+    float: right;
+}
+
+.parent13 img {
+    width: 400px;
+    height: 380px;
+}
+
+.parent13 h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+.parent13 .para4 {
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 35px;
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.parent13 .para5 {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.parent13 button {
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    background-color: cadetblue;
+    border: none;
+}
+
+.parent13 button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* section main8 End */
+/* section main9 start */
+.parent14 {
+    display: flex;
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.parent14 .child9 {
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.parent14 .child9 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(105, 202, 240);
+}
+
+.parent14 .child9 h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    color: rgb(0, 31, 32);
+}
+
+.parent14 .child9 p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* section main9 End */
+/* section main10 start */
+.parent15 {
+    background-color: rgba(171, 215, 233, 0.667);
+    width: 100%;
+    height: 850px;
+    margin-top: 30px;
+}
+
+.parent15 .child10 {
+    background-image: url(image/ecommerce-iwp.png);
+    background-repeat: no-repeat;
+    margin-left: 11%;
+    margin-right: 11%;
+    height: 600px;
+}
+
+.parent15 .child10 img {
+    width: 600px;
+    height: 500px;
+    margin-left: 25%;
+    margin-right: 20%;
+    box-shadow: 2px 2px 20px black;
+    margin-top: 20%;
+    border: 2px solid black;
+}
+
+/* section main10 End */
+/* section main11 start */
+.parent16 {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(-90deg, black, rgb(4, 83, 86));
+}
+
+.parent16 h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding-top: 3%;
+    color: white;
+    font-size: 35px;
+}
+
+.parent16 .child11 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: space-evenly;
+}
+
+.parent16 .child12 {
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 450px;
+    height: 480px;
+}
+
+.parent16 .child12 .image5 {
+    background-color: rgba(171, 215, 233, 0.667);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.parent16 .child12 .image5 img {
+    width: 150px;
+    height: 80px;
+}
+
+.parent16 .child12 p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.parent16 .child12 hr {
+    width: 350px;
+    margin-left: 30px;
+}
+
+.parent16 .child13 {
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 450px;
+    height: 480px;
+}
+
+.parent16 .child13 .h2 {
+    background-color: gainsboro;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    height: 102px;
+}
+
+.parent16 .child13 h2 {
+    padding: 40px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent16 .child13 p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.parent16 .child13 hr {
+    width: 350px;
+    margin-left: 30px;
+}
+
+.parent16 button {
+    height: 55px;
+    width: 250px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(-45deg, black, white);
+    margin-top: 2%;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.parent16 button a {
+    text-decoration: none;
+    color: black;
+}
+
+/* section main11 End */
+/* section main12 start */
+.parent17 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 5%;
+}
+
+.h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    margin-top: 5%;
+}
+
+.parent17 .child14 fieldset {
+    width: 320px;
+    height: 450px;
+    text-align: center;
+    border: none;
+    background-color: gainsboro;
+}
+
+.parent17 .child14 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.parent17 .child14 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: grey;
+    line-height: 30px;
+}
+
+.parent17 .child14 .span1 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 45PX;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent17 .child14 .span2 {
+    font-size: 17px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent17 .child14 .image6 {
+    width: 190px;
+    border-radius: 1px;
+    margin-top: 20px;
+    height: 90px;
+}
+
+.parent17 .child15 fieldset {
+    width: 320px;
+    height: 570px;
+    text-align: center;
+    box-shadow: 1px 1px 8px 5px rgba(128, 128, 128, 0.797);
+    border: none;
+    background-color: gainsboro;
+}
+
+.parent17 .child15 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.parent17 .child15 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: grey;
+    line-height: 30px;
+}
+
+.parent17 .child15 .span3 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 45PX;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent17 .child15 .span4 {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.834);
+}
+
+.parent17 .child16 fieldset {
+    width: 330px;
+    height: 470px;
+    text-align: center;
+    border: none;
+    background-color: gainsboro;
+}
+
+.parent17 .child16 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.parent17 .child16 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: grey;
+    line-height: 30px;
+}
+
+.parent17 .child16 .span5 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 38PX;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent17 .child16 .span6 {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.parent17 .child16 .image7 {
+    width: 250px;
+    border-radius: 1px;
+    height: 120px;
+}
+
+/* section main12 End */
+/* section main13 start */
+.parent18 {
+    background-color: rgba(171, 215, 233, 0.667);
+    width: 100%;
+    height: 550px;
+    margin-top: 5%;
+}
+
+.parent18 img {
+    float: right;
+    width: 670px;
+    margin-right: 7%;
+    height: 100%;
+    clip-path: polygon(35% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.parent18 h1 {
+    margin-left: 7%;
+    padding-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.parent18 p {
+    margin-left: 7%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 27px;
+}
+
+.parent18 button {
+    height: 50px;
+    margin-left: 7%;
+    margin-top: 30px;
+    width: 200px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    background-color: cadetblue;
+    border: none;
+}
+
+.parent18 button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* section main13 End */
+/* section main14 start */
+.parent19 {
+    text-align: center;
+}
+
+.parent19 h1 {
+    font-size: 30px;
+    color: cadetblue;
+}
+
+.parent19 .para6 {
+    font-size: 23px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent19 .para7 {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent19 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+/* section main14 End */
+/* section main15 start */
+.parent20 {
+    margin-left: 34%;
+    margin-right: 34%;
+    margin-top: 3%;
+}
+
+.parent20 p {
+    font-size: 18px;
+    line-height: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* section main15 End */
+/* section main16 start */
+.parent21 {
+    text-align: center;
+    background-color: rgb(4, 83, 86);
+    margin-top: 2%;
+    width: 100%;
+    height: 330px;
+}
+
+.parent21 h1 {
+    font-size: 35px;
+    padding-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.parent21 p {
+    font-size: 17px;
+    color: white;
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.parent21 button {
+    height: 55px;
+    width: 250px;
+    margin-top: 40PX;
+    /* background-color: cadetblue; */
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(-45deg,black,blue,purple,gray,white,aqua,orange,red,brown,black);
+}
+
+.parent21 button a {
+    text-decoration: none;
+    color:black;
+}
+
+/* section main16 End */
+/* footer start */
+.parent22 {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 470px;
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.parent22 .child17 {
+    margin-left: 10%;
+}
+
+.parent22 .child17 img {
+    width: 180px;
+    height: 100px;
+}
+
+.parent22 .child17 p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+
+}
+
+.parent22 .child18 h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 1PX;
+    font-size: 30px;
+}
+
+.parent22 .child18 a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
+
+.parent22 .child18 h2 {
+    color: skyblue;
+    font-weight: bolder;
+}
+
+.parent22 .child19 h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 1PX;
+    font-size: 30px;
+}
+
+.parent22 .child19 a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+
+.parent22 .child19 h2 {
+    color: skyblue;
+    font-weight: bolder;
+}
+
+.parent22 .child20 {
+    margin-right: 18%;
+}
+
+.parent22 .child20 h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 1PX;
+    font-size: 30px;
+}
+
+.parent22 .child20 .image8 {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.parent22 .child20 .image9 {
+    border: 1px solid black;
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.parent22 .child20 .image10 {
+    border: 1px solid black;
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.parent22 .child20 h2 {
+    color: skyblue;
+    font-weight: bolder;
+}
+
+.child21 p {
+    text-align: center;
+    background-color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* footer End */
